@@ -9,4 +9,4 @@ export default function Banner({children, title, subtitle}) {
             {children}
         </div>
     )
-}
+} 

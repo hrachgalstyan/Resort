@@ -80,11 +80,11 @@ export default function RoomFilter({rooms}) {
                 <div className="form-group">
                     <div className="single-extra">
                         <input type="checkbox" name="breakfast" id="breakfast" checked={breakfast} onChange={handleChange} />
-                        <label htmlFor="breakfast">Breakfast</label>
+                        <label htmlFor="breakfast" style={{fontSize: '20px'}}>Breakfast</label>
                     </div>
                     <div className="single-extra">
                         <input type="checkbox" name="pets" id="pets" checked={pets} onChange={handleChange} />
-                        <label htmlFor="pets">Pets</label>
+                        <label htmlFor="pets" style={{fontSize: '20px'}}>Pets</label>
                     </div>
                 </div>
                 {/* end of extras */}

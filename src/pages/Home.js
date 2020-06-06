@@ -14,6 +14,9 @@ export default function Home() {
         </Hero>
         <Services />
         <FeaturedRooms />
+        <div className="d-flex justify-content-center">
+            <Link to='/rooms' className="btn-primary mb-5">More Rooms</Link>
+        </div>
         </>
     )
 }
